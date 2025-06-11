@@ -7,20 +7,20 @@ let package = Package(
         .iOS(.v13)
     ],
     products: [
-        .library(name: "BroadcastUploadExtension", targets: ["BroadcastUploadExtension"])
+        .library(name: "BroadcastUploadExtensionHelper", targets: ["BroadcastUploadExtensionHelper"])
     ],
     targets: [
         .target(
-            name: "BroadcastHelper",
+            name: "ObjHelper",
             publicHeadersPath: "include"
         ),
         .target(
-            name: "BroadcastUploadExtension",
-            dependencies: ["BroadcastHelper"]
+            name: "BroadcastUploadExtensionHelper",
+            dependencies: ["ObjHelper"]
         ),
         .testTarget(
             name: "BroadcastUploadExtensionHelperTests",
-            dependencies: ["BroadcastUploadExtension"]
+            dependencies: ["BroadcastUploadExtensionHelper"]
         )
     ]
 )
