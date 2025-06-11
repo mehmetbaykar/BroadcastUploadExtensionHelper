@@ -1,0 +1,21 @@
+name: Build
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build package
+        uses: sersoft-gmbh/xcodebuild-action@v3
+        with:
+          spm-package: './'
+          scheme: BroadcastUploadExtensionHelper
+          destination: 'generic/platform=iOS'
+          action: build
+          output-formatter: xcbeautify
