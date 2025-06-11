@@ -4,17 +4,15 @@ A Swift package that wraps an Objective-C helper for ReplayKit Broadcast Upload 
 
 ## Usage
 
-Add the package through Swift Package Manager using this repository's URL. Import `BroadcastUploadExtension` in your extension target:
+Add the package through Swift Package Manager using this repository's URL. Import `BroadcastUploadExtensionHelper` in your extension target:
 
 ```swift
-import BroadcastUploadExtension
+import BroadcastUploadExtensionHelper
 ```
 
 From your `RPBroadcastSampleHandler` subclass you can end the broadcast:
 
 ```swift
-finishGracefully()                   // End normally
-finishWithError(message: "Oops")     // End with an error alert
+sampleHandler.finishGracefully()                   // End normally without and error alert
+samplehandler.finishWithError(message: "Oops")     // End with an error alert
 ```
-
-`finishGracefully()` invokes the Objective-C helper to end without an alert.
