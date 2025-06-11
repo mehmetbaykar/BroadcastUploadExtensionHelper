@@ -11,12 +11,12 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "BroadcastHelper",
+            name: "ObjcHelper",
             publicHeadersPath: "include"
         ),
         .target(
             name: "BroadcastUploadExtensionHelper",
-            dependencies: ["BroadcastHelper"]
+            dependencies: ["ObjcHelper"]
         ),
         .testTarget(
             name: "BroadcastUploadExtensionHelperTests",

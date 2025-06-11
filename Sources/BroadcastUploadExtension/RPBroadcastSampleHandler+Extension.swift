@@ -1,4 +1,4 @@
-import BroadcastHelper
+import ObjcHelper
 import ReplayKit
 
 extension RPBroadcastSampleHandler {
