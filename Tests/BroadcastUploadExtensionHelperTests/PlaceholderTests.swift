@@ -1,5 +1,5 @@
 import XCTest
-@testable import BroadcastUploadExtension
+@testable import BroadcastUploadExtensionHelper
 
 final class PlaceholderTests: XCTestCase {
     func testExample() {
