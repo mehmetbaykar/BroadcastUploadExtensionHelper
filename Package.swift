@@ -1,10 +1,10 @@
-// swift-tools-version:6.1
+// swift-tools-version:5.10
 import PackageDescription
 
 let package = Package(
     name: "BroadcastUploadExtensionHelper",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v13)
     ],
     products: [
         .library(name: "BroadcastUploadExtension", targets: ["BroadcastUploadExtension"])
