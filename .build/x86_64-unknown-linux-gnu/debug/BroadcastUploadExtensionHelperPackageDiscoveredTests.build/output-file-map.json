@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/master.swiftdeps"
+  },
+  "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/BroadcastUploadExtensionHelperTests.swift": {
+    "dependencies": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.d",
+    "object": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.swift.o",
+    "swiftmodule": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.swiftdeps",
+    "diagnostics": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.dia"
+  },
+  "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift": {
+    "dependencies": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.d",
+    "object": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.swift.o",
+    "swiftmodule": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests~partial.swiftmodule",
+    "swift-dependencies": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.swiftdeps",
+    "diagnostics": "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.dia"
+  }
+}

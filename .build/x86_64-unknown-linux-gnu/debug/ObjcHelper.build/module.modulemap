@@ -1,0 +1,4 @@
+module ObjcHelper {
+    umbrella header "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include/ObjcHelper.h"
+    export *
+}

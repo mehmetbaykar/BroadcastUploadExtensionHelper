@@ -1,0 +1,781 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.xctest",
+      "packagePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper",
+      "productName" : "BroadcastUploadExtensionHelperPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+    "BroadcastUploadExtensionHelperPackageDiscoveredTests"
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.BroadcastUploadExtensionHelper-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/sources",
+      "importPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/BroadcastUploadExtensionHelper/RPBroadcastSampleHandler+Extension.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/BroadcastUploadHelper.m.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BroadcastUploadExtensionHelper",
+      "moduleOutputPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelper.swiftmodule",
+      "objects" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/RPBroadcastSampleHandler+Extension.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+        "-module-cache-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/include/BroadcastUploadExtensionHelper-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "broadcastuploadextensionhelper",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/RPBroadcastSampleHandler+Extension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelper.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/BroadcastUploadExtensionHelper/RPBroadcastSampleHandler+Extension.swift"
+      ],
+      "tempsPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BroadcastUploadExtensionHelperPackageDiscoveredTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/sources",
+      "importPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/BroadcastUploadExtensionHelperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BroadcastUploadExtensionHelperPackageDiscoveredTests",
+      "moduleOutputPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperPackageDiscoveredTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.swift.o",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+        "-module-cache-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/include/BroadcastUploadExtensionHelperPackageDiscoveredTests-Swift.h",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "broadcastuploadextensionhelper",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/BroadcastUploadExtensionHelperTests.swift",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BroadcastUploadExtensionHelperPackageTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/sources",
+      "importPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperPackageDiscoveredTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BroadcastUploadExtensionHelperPackageTests",
+      "moduleOutputPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperPackageTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+        "-module-cache-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/include/BroadcastUploadExtensionHelperPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "broadcastuploadextensionhelper",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.BroadcastUploadExtensionHelperTests-x86_64-unknown-linux-gnu-debug.module" : {
+      "executable" : "/usr/share/swift/usr/bin/swiftc",
+      "fileList" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/sources",
+      "importPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Tests/BroadcastUploadExtensionHelperTests/PlaceholderTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelper.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "BroadcastUploadExtensionHelperTests",
+      "moduleOutputPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperTests.swiftmodule",
+      "objects" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/PlaceholderTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-unknown-linux-gnu",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-Xfrontend",
+        "-enable-cross-import-overlays",
+        "-j4",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-Xcc",
+        "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+        "-Xcc",
+        "-I",
+        "-Xcc",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+        "-module-cache-path",
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-g",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "broadcastuploadextensionhelper",
+        "-Xcc",
+        "-fno-omit-frame-pointer"
+      ],
+      "outputFileMapPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/PlaceholderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Tests/BroadcastUploadExtensionHelperTests/PlaceholderTests.swift"
+      ],
+      "tempsPath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "BroadcastUploadExtensionHelper" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BroadcastUploadExtensionHelper",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-c",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/BroadcastUploadExtensionHelper/RPBroadcastSampleHandler+Extension.swift",
+      "-I",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+      "-module-cache-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/include/BroadcastUploadExtensionHelper-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "BroadcastUploadExtensionHelperPackageDiscoveredTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BroadcastUploadExtensionHelperPackageDiscoveredTests",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-c",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/BroadcastUploadExtensionHelperTests.swift",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift",
+      "-I",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+      "-module-cache-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/include/BroadcastUploadExtensionHelperPackageDiscoveredTests-Swift.h",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "BroadcastUploadExtensionHelperPackageTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BroadcastUploadExtensionHelperPackageTests",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-c",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.derived/runner.swift",
+      "-I",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+      "-module-cache-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/include/BroadcastUploadExtensionHelperPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ],
+    "BroadcastUploadExtensionHelperTests" : [
+      "/usr/share/swift/usr/bin/swiftc",
+      "-module-name",
+      "BroadcastUploadExtensionHelperTests",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-c",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Tests/BroadcastUploadExtensionHelperTests/PlaceholderTests.swift",
+      "-I",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules",
+      "-target",
+      "x86_64-unknown-linux-gnu",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-Xfrontend",
+      "-enable-cross-import-overlays",
+      "-j4",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-Xcc",
+      "-fmodule-map-file=/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/module.modulemap",
+      "-Xcc",
+      "-I",
+      "-Xcc",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/ObjcHelper/include",
+      "-module-cache-path",
+      "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-g",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "broadcastuploadextensionhelper",
+      "-Xcc",
+      "-fno-omit-frame-pointer",
+      "-driver-use-frontend-path",
+      "/usr/share/swift/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "BroadcastUploadExtensionHelper" : [
+      "ObjcHelper"
+    ],
+    "BroadcastUploadExtensionHelperPackageDiscoveredTests" : [
+      "BroadcastUploadExtensionHelperTests",
+      "BroadcastUploadExtensionHelper",
+      "ObjcHelper"
+    ],
+    "BroadcastUploadExtensionHelperPackageTests" : [
+      "BroadcastUploadExtensionHelperPackageDiscoveredTests",
+      "BroadcastUploadExtensionHelperTests",
+      "BroadcastUploadExtensionHelper",
+      "ObjcHelper"
+    ],
+    "BroadcastUploadExtensionHelperTests" : [
+      "BroadcastUploadExtensionHelper",
+      "ObjcHelper"
+    ],
+    "ObjcHelper" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/PlaceholderTests.swift.o"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/BroadcastUploadExtensionHelperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ]
+    }
+  },
+  "testEntryPointCommands" : {
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.derived/runner.swift" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/Modules/BroadcastUploadExtensionHelperPackageDiscoveredTests.swiftmodule"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Sources/BroadcastUploadExtensionHelper/RPBroadcastSampleHandler+Extension.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/sources"
+    },
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/BroadcastUploadExtensionHelperTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.derived/all-discovered-tests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/sources"
+    },
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/sources"
+    },
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/BroadcastUploadExtensionHelper.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelper.build/RPBroadcastSampleHandler+Extension.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperPackageDiscoveredTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/BroadcastUploadExtensionHelperTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageDiscoveredTests.build/all-discovered-tests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/BroadcastUploadExtensionHelperPackageTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/BroadcastUploadExtensionHelperTests.swiftmodule.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/PlaceholderTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/ObjcHelper.build/BroadcastUploadHelper.m.o"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperPackageTests.product/Objects.LinkFileList"
+    },
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/Tests/BroadcastUploadExtensionHelperTests/PlaceholderTests.swift"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/BroadcastUploadExtensionHelperTests.build/sources"
+    },
+    "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/usr/share/swift/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/home/runner/work/BroadcastUploadExtensionHelper/BroadcastUploadExtensionHelper/.build/x86_64-unknown-linux-gnu/debug/swift-version--1BFCD5C06E9F820A.txt"
+    }
+  }
+}
