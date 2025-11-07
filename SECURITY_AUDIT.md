@@ -80,16 +80,23 @@ This document provides a comprehensive checklist used to verify this repository 
    - Check "Require pull request before merging"
    - Check "Require approvals" (at least 1)
 
-2. **Enable Dependabot** (optional):
+2. **Enable Dependabot** (optional but recommended):
    - Go to Settings → Security & analysis
    - Enable "Dependabot alerts"
    - Enable "Dependabot security updates"
+   - Enable "Dependabot version updates" for keeping dependencies fresh
 
-3. **Review Permissions**:
+3. **Consider SHA-pinning Actions** (advanced):
+   - For maximum security, pin actions to specific commit SHAs
+   - Example: `actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744` instead of `@v3`
+   - Trade-off: More secure but harder to maintain
+   - Current approach (version tags) is acceptable for most projects
+
+4. **Review Permissions**:
    - Only give collaborators minimum necessary permissions
    - Regularly audit who has access
 
-4. **Monitor Actions**:
+5. **Monitor Actions**:
    - Periodically review workflow runs
    - Check for any unexpected behavior
 
