@@ -18,15 +18,14 @@ extension RPBroadcastSampleHandler {
   /// - Parameter message: A user-friendly error message explaining why the broadcast ended
   /// - Note: This will present the error message in a system alert to the user
   public func finishWithError(message: String) {
-    let errorDomain = "com.yourapp.BroadcastExtension.Error"
+    let errorDomain = Bundle.main.bundleIdentifier ?? "com.broadcast.extension"
     let userInfo: [String: Any] = [
       NSLocalizedFailureReasonErrorKey: message,
-      NSLocalizedDescriptionKey: "Broadcast session terminated",
     ]
 
     let error = NSError(
       domain: errorDomain,
-      code: 1001,  // Custom error code for broadcast termination
+      code: 1001,
       userInfo: userInfo
     )
 
